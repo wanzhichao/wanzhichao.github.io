@@ -13,17 +13,17 @@ redcarpet:
 # 核心设置
 title : wanzhichao's blog
 tagline: Site Tagline
-keywords : caijinliin, linux, php, Mysql, c++,git
-description: 蔡金林的技术博客
+keywords : wanzhichao,java, php,javascript,html5, Mysql, c++,git
+description: 万智超的技术博客
 author :
-  name : caijinlin
-  email : 1399534656@qq.com
-  github : caijinlin
+  name : wanzhichao
+  email : 1159337620@qq.com
+  github : wanzhichao
   gitcafe : 
   twitter :
   facebook :
   feedburner :
-  weibo : sclgcaijinlin
+  weibo : 智力超群万
 
 # 域名连接
 #production_url : //ihavee.github.io
