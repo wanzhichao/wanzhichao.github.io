@@ -57,7 +57,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      name : cjl              # 多说上获取的 shortname
+      name : Wanzc              # 多说上获取的 shortname
       rcomments :                   # 首页侧边栏最新评论
         num: 10                     # 最新评论显示条数
         avatar : 1                   # 最新评论是否显示头像
