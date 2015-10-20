@@ -31,9 +31,9 @@ js事件委托所用的原理是事件冒泡，将子元素上发生的事件冒
 		if(target.nodeName.toLowerCase() == 'li') {
 			console.log(target.id);
 		}
-	}, false)
+	}, false);
 	
-2:对于新添加的元素，也能处理点击事件(ul中添加一个li)。颇有(一处绑定到处，执行的意思)
+2:对于新添加的元素，也能处理点击事件(ul中添加一个li)。颇有一处绑定到处，执行的意思
 	
 ####bind,live,delegate几个方法的区别
 	
