@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "砸向自己的巨人坑"
+title: "js事件冒泡和事件绑定"
 description: "js事件冒泡和事件绑定"
 keywords: "冒泡"
 category: javascript
@@ -11,6 +11,8 @@ tags: [javascript]
 ###事件委托&事件绑定
 
 今日在一个项目中遇到如下情况:有一个ul元素，
+
+<!-- more -->
 
 	<ul id="parent-list">
 		<li id="post-1">Item 1</li>
