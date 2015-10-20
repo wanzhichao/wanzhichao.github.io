@@ -26,7 +26,7 @@ js事件委托所用的原理是事件冒泡，将子元素上发生的事件冒
 	
 1：效率上的提升。当li多达1000个的时候，假如遍历ul，为每个绑定事件则会造成巨大的消耗。	然而采用事件委托的却仍只需在父元素绑定一次。
 
-   parent.addEventListener('click', function(e) {
+    parent.addEventListener('click', function(e) {
 		var target = e.target || e.srcElement;
 		if(target.nodeName.toLowerCase() == 'li') {
 			console.log(target.id);
@@ -39,7 +39,7 @@ js事件委托所用的原理是事件冒泡，将子元素上发生的事件冒
 	
 1：bind，这种方法比较简单、直接。但缺点也如上诉1.2点。
 
-2：$('li').live('click',function(){alert('That tickles!')})。这种方法将事件冒泡到document上，假如页面层级太高。则会增加响应事件的时间
+2：$('li').live('click',function(){alert('That tickles!')})   。这种方法将事件冒泡到document上，假如页面层级太高。则会增加响应事件的时间
 	
 3：$("ul").delegate('li', 'click', function() {})。这种方法直接将子元素的事件交给父元素来处理，综合来说，是一种比较好的解决方案。
 
