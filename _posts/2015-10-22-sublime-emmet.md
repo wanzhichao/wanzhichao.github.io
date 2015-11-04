@@ -26,7 +26,7 @@ tags: [前端]
 
 	<div class="mystyle" id="container"></div>
 
-####生成class为list，含有5个class为sub<li>的<ul>标签
+####生成class为list，含有5个class为sub的ul标签
 
 	ul.list>li.sub*5
 
@@ -63,6 +63,6 @@ tags: [前端]
 
 ###总结
 
-emmet的功能不仅于此，本人列出常用的一些技巧，其他功能参考<a href="http://blog.csdn.net/lmmilove/article/details/9181323" style="color:red;">emmet常用功能</a>。善于利用工具能腾出更多的时间来创造出更大的价值，装jslint好久了，也没用来检测过js代码..下一章为大家介绍jslint的用法
+emmet的功能不仅于此，本人列出常用的一些技巧，其他功能参考<a href="http://blog.csdn.net/lmmilove/article/details/9181323" style="color:red;">emmet常用功能</a>。善于利用工具能腾出更多的时间来创造出更大的价值，装jsHint好久了，也没用来检测过js代码..下一章为大家介绍jsHint的用法
 	
 
